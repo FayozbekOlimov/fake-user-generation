@@ -4,7 +4,7 @@ import { alphabet, MAX_RANDOM_VALUE } from "./constants";
 export const exportToCSV = (data) => {
   const csvExporter = new ExportToCsv({
     fieldSeparator: ",",
-    filename: "sers",
+    filename: "Fake users",
     quoteStrings: '"',
     decimalSeparator: ".",
     showLabels: true,
